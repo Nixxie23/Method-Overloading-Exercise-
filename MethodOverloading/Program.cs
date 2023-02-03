@@ -36,8 +36,8 @@ namespace MethodOverloading
             Console.WriteLine($"{Add(1, 2, true)}");
             Console.WriteLine($"{Add(1, 0, true)}");
             Console.WriteLine($"{Add(1, -5, true)}");
-            Console.WriteLine($"{Add(1, -2, true)}");
             Console.WriteLine($"{Add(1, 2, false)}");
+            Console.WriteLine($"{Add(1, -2, true)}");            
         }
     }
 }
